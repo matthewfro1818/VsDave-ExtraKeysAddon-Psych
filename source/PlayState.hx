@@ -501,52 +501,6 @@ class PlayState extends MusicBeatState
 		{
 			switch (songName)
 			{
-				case 'house' | 'insanity' | 'supernovae' | 'warmup':
-					curStage = 'house';
-				case 'polygonized':
-					curStage = 'red-void';
-				case 'bonus-song':
-					curStage = 'inside-house';
-				case 'blocked' | 'corn-theft' | 'maze':
-					curStage = 'farm';
-				case 'indignancy':
-					curStage = 'farm-night';
-				case 'splitathon' | 'mealie' | 'shredder':
-					curStage = 'farm-night';
-				case 'shredder' | 'greetings':
-					curStage = 'festival';
-				case 'interdimensional':
-					curStage = 'interdimension-void';
-				case 'rano':
-					curStage = 'backyard';
-				case 'cheating':
-					curStage = 'green-void';
-				case 'unfairness':
-					curStage = 'glitchy-void';
-				case 'exploitation':
-					curStage = 'desktop';
-				case 'kabunga':
-					curStage = 'exbungo-land';
-				case 'glitch' | 'memory':
-					curStage = 'house-night';
-				case 'secret':
-					curStage = 'house-sunset';
-				case 'vs-dave-rap' | 'vs-dave-rap-two':
-					curStage = 'rapBattle';
-				case 'recursed':
-					curStage = 'freeplay';
-				case 'roofs':
-					curStage = 'roof';
-				case 'bot-trot':
-					curStage = 'bedroom';
-				case 'escape-from-california':
-					curStage = 'desert';
-				case 'master':
-					curStage = 'master';
-				case 'overdrive':
-					curStage = 'overdrive';
-				case 'five-nights':
-					curStage = 'office';
 				case 'spookeez' | 'south' | 'monster':
 					curStage = 'spooky';
 				case 'pico' | 'blammed' | 'philly' | 'philly-nice':
